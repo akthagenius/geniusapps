@@ -6,6 +6,7 @@
     "nx": "nx",
     "start": "nx serve gnsvrs",
     "build": "nx build gnsvrs",
+    "build:prod": "nx build gnsvrs --configuration=production",
     "test": "nx test gnsvrs",
     "lint": "nx lint gnsvrs"
   },
