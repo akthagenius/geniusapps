@@ -79,6 +79,7 @@ export default function BeatStore() {
     setCartModalOpen(false);
   }, [cart, formatPrice]);
 
+  
   // Calculate total
   const cartTotal = cart.reduce((sum, item) => sum + item.price, 0);
 
